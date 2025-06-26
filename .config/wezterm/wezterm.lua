@@ -4,11 +4,12 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
-config.enable_wayland = false
+config.enable_wayland = true
 config.color_scheme = "Tokyo Night"
 -- config.color_scheme = "Dracula+"
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
+config.tab_max_width = 48
 config.window_background_opacity = 0.9
 config.colors = {
 	tab_bar = {
