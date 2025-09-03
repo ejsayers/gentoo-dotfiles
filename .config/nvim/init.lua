@@ -1,3 +1,3 @@
 require("config.lazy")
-require("config.spacing")
+require("config.defaults")
 require("config.keymaps")
