@@ -17,9 +17,6 @@ end, { desc = "Signature Help" })
 -- c actions
 map("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "Code Action" })
 map("n", "<leader>cr", vim.lsp.buf.rename, { desc = "Rename" })
-map("n", "<leader>cf", function()
-	require("conform").format({ lsp_format = "fallback" })
-end, { desc = "Format current buffer" })
 
 -- Telescope keybindings
 map("n", "<leader>ff", builtin.find_files, { desc = "Telescope find files" })
