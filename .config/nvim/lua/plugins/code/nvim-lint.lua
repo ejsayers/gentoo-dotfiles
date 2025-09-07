@@ -14,6 +14,7 @@ return {
 				lua = { "luacheck" },
 			}
 			lint.linters.luacheck = {
+				name = "luacheck",
 				cmd = "luacheck",
 				stdin = true,
 				args = {
