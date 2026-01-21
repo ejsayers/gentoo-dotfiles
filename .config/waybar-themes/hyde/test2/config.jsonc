@@ -1,0 +1,94 @@
+// -*- mode: json -*-
+[
+  {
+    "output": [
+      "DP-1"
+    ],
+    "modules-left": [
+      "custom/l_end",
+      "hyprland/workspaces",
+      "custom/r_end",
+      "custom/l_end",
+      "wlr/taskbar",
+      "custom/r_end"
+    ],
+    "modules-center": [
+      "custom/l_end",
+      "clock#1",
+      "custom/r_end"
+    ],
+    "modules-right": [
+      "custom/l_end",
+      "pulseaudio#text",
+      "pulseaudio#icon",
+      "custom/vert_bar",
+      "clock#2",
+      "custom/r_end"
+    ],
+    "include": [
+      "~/.config/waybar/modules.jsonc"
+    ]
+  },
+  {
+    "output": [
+      "DP-3"
+    ],
+    "modules-left": [
+      "custom/l_end",
+      "hyprland/workspaces",
+      "custom/r_end",
+      "custom/l_end",
+      "wlr/taskbar",
+      "custom/r_end"
+    ],
+    "modules-center": [
+      "custom/l_end",
+      "clock#1",
+      "custom/r_end"
+    ],
+    "modules-right": [
+      "custom/l_end",
+      "memory",
+      "custom/vert_bar",
+      "disk",
+      "custom/vert_bar",
+      "cpu#percent",
+      "cpu#bars",
+      "custom/r_end"
+    ],
+    "include": [
+      "~/.config/waybar/modules.jsonc"
+    ]
+  },
+  {
+    "output": [
+      "HDMI-A-1"
+    ],
+    "modules-left": [
+      "custom/l_end",
+      "hyprland/workspaces",
+      "custom/r_end",
+      "custom/l_end",
+      "wlr/taskbar",
+      "custom/r_end"
+    ],
+    "modules-center": [
+      "custom/l_end",
+      "clock#1",
+      "custom/r_end"
+    ],
+    "modules-right": [
+      "custom/l_end",
+      "pulseaudio#text",
+      "pulseaudio#icon",
+      "custom/vert_bar",
+      "hyprland/language",
+      "custom/vert_bar",
+      "clock#2",
+      "custom/r_end"
+    ],
+    "include": [
+      "~/.config/waybar/modules.jsonc"
+    ]
+  }
+]

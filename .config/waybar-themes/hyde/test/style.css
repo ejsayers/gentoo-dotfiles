@@ -1,0 +1,15 @@
+* {
+  font-size: 16px;
+  min-height: 32px;
+}
+
+window#waybar {
+  background: #292b2e;
+  color: #fdf6e3;
+}
+
+#pulseaudio {
+  background: #1a1a1a;
+  color: #cccccc;
+  padding: 0 10px
+}
